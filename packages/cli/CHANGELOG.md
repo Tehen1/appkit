@@ -1,5 +1,21 @@
 # @reown/appkit-cli
 
+## 1.7.3
+
+### Patch Changes
+
+- [#4126](https://github.com/reown-com/appkit/pull/4126) [`116b854`](https://github.com/reown-com/appkit/commit/116b854b9d94192fad1d6a6f1b9b7e511ff118fe) Thanks [@KannuSingh](https://github.com/KannuSingh)! - Fixes swap balance recent on network and account change
+
+- [#4164](https://github.com/reown-com/appkit/pull/4164) [`c538a60`](https://github.com/reown-com/appkit/commit/c538a60c49c27ba32a8bb8362fe398811e624b47) Thanks [@magiziz](https://github.com/magiziz)! - Added required polyfills to `@reown/appkit-adapter-bitcoin` adapter package
+
+- [#4157](https://github.com/reown-com/appkit/pull/4157) [`8b29cab`](https://github.com/reown-com/appkit/commit/8b29cab1b560351479f343e815f66e31fef184b3) Thanks [@magiziz](https://github.com/magiziz)! - Removed activity and nft tabs from account modal when using solana
+
+- [#4151](https://github.com/reown-com/appkit/pull/4151) [`24f46dc`](https://github.com/reown-com/appkit/commit/24f46dcf1431f24a58e5fbd2d5e390e3e7a8cf0d) Thanks [@enesozturk](https://github.com/enesozturk)! - Refactors CAIP networks state read logics in connectors and adapters
+
+- [#4152](https://github.com/reown-com/appkit/pull/4152) [`08746a4`](https://github.com/reown-com/appkit/commit/08746a45d11ae994ede74c4309722a01c68e4c6c) Thanks [@magiziz](https://github.com/magiziz)! - Updated recent wallet list to only show wallets that match the current chain namespace
+
+- [#4158](https://github.com/reown-com/appkit/pull/4158) [`12c3c3e`](https://github.com/reown-com/appkit/commit/12c3c3e15b162353666ca012cce51378dbc1aa40) Thanks [@enesozturk](https://github.com/enesozturk)! - Removes add/remove chain adapter functionality for the Demo app use case and use CAIP networks by getCaipNetworks function in Base client
+
 ## 1.7.2
 
 ### Patch Changes
